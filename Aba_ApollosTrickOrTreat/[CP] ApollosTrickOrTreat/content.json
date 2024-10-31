@@ -1,0 +1,87 @@
+{
+	"Format": "2.3.0",
+	"ConfigSchema": {
+		"BuffDuration": {
+			"AllowValues": "120000, 300000, 420000, 600000, -2", // 2 minutes, 5 minutes, 7 minutes, 10 minutes, end of day
+			"Default": "-2",
+			"AllowBlank": false
+		},
+	},
+
+	"Changes": [		
+
+		///////////////////////////////////
+		// LOADS
+		///////////////////////////////////
+
+        // Blank JSONs
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Aba.Apollo, Characters/schedules/Aba.Apollo",
+			"FromFile": "data/blank.json"
+		}, 
+
+        //Portraits
+        {
+            "LogName": "Apollo Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Aba.Apollo_blue, Portraits/Aba.Apollo_purple, Portraits/Aba.Apollo_green",
+            "FromFile": "assets/portraits/{{TargetWithoutPath}}.png"
+        },
+
+        //Sprites
+        {
+            "LogName": "Apollo Sprite",
+            "Action": "Load",
+            "Target": "Characters/Aba.Apollo_blue, Characters/Aba.Apollo_purple, Characters/Aba.Apollo_green",
+            "FromFile": "assets/characters/{{TargetWithoutPath}}.png"
+        },
+
+		///////////////////////////////////
+		// INCLUDES
+		///////////////////////////////////
+
+		// Music
+		{
+			"LogName": "Include Aba_music",
+			"Action": "Include",
+			"FromFile": "data/Aba_music.json"
+		},
+
+		// Objects
+		{
+			"LogName": "Include Aba_objects",
+			"Action": "Include",
+			"FromFile": "data/Aba_objects.json"
+		},
+
+		// Trigger Actions
+		{
+			"LogName": "Include Aba_triggeractions",
+			"Action": "Include",
+			"FromFile": "data/Aba_triggeractions.json"
+		},
+
+		// NPC data - Data/Characters, dialogue, schedule
+		{
+			"LogName": "Include Aba_npc",
+			"Action": "Include",
+			"FromFile": "data/Aba_npc.json"
+		},
+
+        // Maps
+		{
+			"LogName": "Include Aba_maps",
+			"Action": "Include",
+			"FromFile": "data/Aba_maps.json"
+		},
+
+        // Mail
+		{
+			"LogName": "Include Aba_mail",
+			"Action": "Include",
+			"FromFile": "data/Aba_mail.json"
+		}
+	]
+}

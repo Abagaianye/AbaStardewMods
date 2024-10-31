@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Apollo's Trick or Treat",
+  "Author": "Abagaianye",
+  "Version": "1.0.0",
+  "Description": "Somewhere in the world is a witch who wants to give you treats!",
+  "UniqueID": "Abagaianye.TrickTreat",
+  "EntryDll": "ApollosTrickOrTreat.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:28984" ]
+}

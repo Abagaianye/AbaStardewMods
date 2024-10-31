@@ -1,0 +1,117 @@
+{
+	"Changes": [
+
+		//////////////////////////////////////
+		// CUSTOM TILESHEET LOADS
+		//////////////////////////////////////
+        
+		{
+			"LogName": "Load custom tilesheets",
+			"Action": "Load",
+			"Target": "Maps/Aba_edited_tilesheet, Maps/Aba_unedited_tilesheet",
+			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png"
+		},
+
+		//////////////////////////////////////
+		// CUSTOM MAP LOADS
+		//////////////////////////////////////
+		// Load Apollo House Map
+		{
+			"LogName": "Load Apollo House map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_ApolloHouse",
+			"FromFile": "assets/maps/Aba_ApolloHouse.tmx"
+		},
+
+		//////////////////////////////////////
+		// CUSTOM LOCATIONS
+		//////////////////////////////////////
+		// Add custom areas to locations data
+		// TODO: Forage and fish spawns
+
+		{
+			"LogName": "Add custom areas to locations",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModID}}_ApolloHouse": {
+					"DisplayName": "{{i18n: mapname.apollohouse}}",
+					"DefaultArrivalTile": {
+						"X": 4,
+						"Y": 22
+					},
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_ApolloHouse",
+						"Type": "StardewValley.GameLocation",
+						"AlwaysActive": false
+					},
+                    "Music": [
+                        {
+                            "Track": "{{ModID}}_Music"
+                        }
+                    ]
+				}
+			}
+		},
+
+		//////////////////////////////////////
+		// VANILLA MAP EDITS
+		//////////////////////////////////////
+
+		// Edit Town to add warp to Apollo's house
+		{
+			"LogName": "Edit Town to add shop warp",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            },
+			"MapTiles": [
+				{
+                    "Position": { "X": 43, "Y": 90 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "MagicWarp {{ModID}}_ApolloHouse 4 22"
+                    }
+                }
+			]
+		},
+
+		// Edit Town to add warp to Apollo's house - SVE version
+		{
+			"LogName": "Edit Town to add shop warp - SVE",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            },
+			"MapTiles": [
+				{
+                    "Position": { "X": 44, "Y": 89 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "MagicWarp {{ModID}}_ApolloHouse 4 22"
+                    }
+                }
+			]
+		},
+
+		//////////////////////////////////////
+		// MAP STRINGS
+		//////////////////////////////////////
+		{
+			"LogName": "Add map strings",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"{{ModID}}_Algernon": "{{i18n: map.algernon}}",
+				"{{ModID}}_Sign": "{{i18n: map.sign}}",
+				"{{ModID}}_Crab": "{{i18n: map.crab}}",
+				"{{ModID}}_Bee": "{{i18n: map.bee}}",
+                "{{ModID}}_Book1": "{{i18n: map.book1}}",
+                "{{ModID}}_Book2": "{{i18n: map.book2}}",
+                "{{ModID}}_Keyboard": "{{i18n: map.keyboard}}"
+			}
+		},
+	]
+}

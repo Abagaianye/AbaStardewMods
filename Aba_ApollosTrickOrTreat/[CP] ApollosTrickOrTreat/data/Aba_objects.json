@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+			"LogName": "Tricks or Treats textures",
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/Candy",
+			"FromFile": "assets/Aba_candy.png"
+		},
+		{
+			"LogName": "Add a food",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Candy": {
+					"Name": "{{ModId}}_Candy",
+					"DisplayName": "{{i18n:object.candy.name}}",
+					"Description": "{{i18n:object.candy.description}}",
+					"Edibility": "100",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 0,
+					"Texture": "Mods/{{ModID}}/Candy",
+					"IsDrink": false,
+					"ContextTags": [
+						"trick_treat"
+					],
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "CanBeGivenAsGift": false
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+
+{
+    "Changes": [
+        {
+            "LogName": "Add Trigger Actions",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_Buff": { // Apply a random buff for the rest of the day once the Mysterious Candy is eaten
+                    "Id": "{{ModID}}_Buff",
+                    "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+                    "MarkActionApplied": false,
+                    "Condition": "ITEM_CONTEXT_TAG Input trick_treat",
+                    "Actions": [
+                        'Spiderbuttons.BETAS_RandomAction "AddBuff statue_of_blessings_0 {{BuffDuration}}" "AddBuff statue_of_blessings_1 {{BuffDuration}}" "AddBuff statue_of_blessings_2 {{BuffDuration}}" "AddBuff statue_of_blessings_3 {{BuffDuration}}" "AddBuff statue_of_blessings_4 {{BuffDuration}}" "AddBuff statue_of_blessings_5 {{BuffDuration}}" "AddBuff statue_of_blessings_6 {{BuffDuration}}" "AddBuff dwarfStatue_0 {{BuffDuration}}" "AddBuff dwarfStatue_1 {{BuffDuration}}" "AddBuff dwarfStatue_2 {{BuffDuration}}" "AddBuff dwarfStatue_3 {{BuffDuration}}" "AddBuff dwarfStatue_4 {{BuffDuration}}" "AddBuff 12 {{BuffDuration}}" "AddBuff 13 {{BuffDuration}}" "AddBuff 14 {{BuffDuration}}" "AddBuff 17 {{BuffDuration}}" "AddBuff 18 {{BuffDuration}}" "AddBuff 19 {{BuffDuration}}" "AddBuff 20 {{BuffDuration}}" "AddBuff 21 {{BuffDuration}}" "AddBuff 22 {{BuffDuration}}" "AddBuff 23 {{BuffDuration}}" "AddBuff 24 {{BuffDuration}}" "AddBuff 25 {{BuffDuration}}" "AddBuff 26 {{BuffDuration}}" "AddBuff 27 {{BuffDuration}}" "AddBuff 28 {{BuffDuration}}"',
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n: buff.applied}}\""
+                    ]
+                },
+                "{{ModID}}_Letter": { // Send a letter to the player to tell them about the graveyard
+                    "Id": "{{ModID}}_Letter",
+                    "Trigger": "DayStarted",
+                    "Actions": [
+                        "AddMail All {{ModID}}_Graveyard now"
+                    ]
+                },
+            }
+        }
+    ]
+}

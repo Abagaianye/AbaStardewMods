@@ -1,0 +1,305 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Buffs",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModID}}_Burnt": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.453]", // Burnt
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "Yellow",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 12,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": -2.0,
+                        "Defense": -3.0,
+                        "Attack": -3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Slimed": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.460]", // Slimed
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "Green",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 13,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": -4.0,
+                        "Defense": 0.0,
+                        "Attack": 0.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Jinxed": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.464]", // Jinxed
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "HotPink",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 14,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 0.0,
+                        "Defense": -8.0,
+                        "Attack": 0.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Tipsy": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.458]", // Tipsy
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "#7F22007F",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 17,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": -1.0,
+                        "Defense": 0.0,
+                        "Attack": 0.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Spooked": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.462]", // Spooked
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "50 0 30",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 18,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 0.0,
+                        "Defense": 0.0,
+                        "Attack": -8.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Frozen": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.466]", // Frozen
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "LightBlue",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 19,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": -8.0,
+                        "Defense": 0.0,
+                        "Attack": 0.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_WarriorEnergy": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.468]", // Warrior Energy
+                    "Description": null,
+                    "IsDebuff": false,
+                    "GlowColor": "Red",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 20,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 0.0,
+                        "Defense": 0.0,
+                        "Attack": 10.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_YobasBlessing": { // Don't think I can do this one
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.470]", // Yoba's Blessing
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.471]",
+                    "IsDebuff": false,
+                    "GlowColor": "Orange",
+                    "Duration": -2,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 21,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_AdrenalineRush": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.472]", // Adrenaline Rush
+                    "Description": null,
+                    "IsDebuff": false,
+                    "GlowColor": "Cyan",
+                    "Duration": 3000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 9,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 2.0,
+                        "Defense": 0.0,
+                        "Attack": 0.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_OilOfGarlic": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.474]", // Oil of Garlic
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.475]",
+                    "IsDebuff": false,
+                    "GlowColor": "#243B243F",
+                    "Duration": 600000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 23,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_MonsterMusk": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:MonsterMusk_BuffName]", // Monster Musk
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:MonsterMusk_BuffDescription]",
+                    "IsDebuff": false,
+                    "GlowColor": "#2000203F",
+                    "Duration": 600000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 24,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Nauseous": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Nauseous_BuffName]", // Nauseous
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:Nauseous_BuffDescription]",
+                    "IsDebuff": true,
+                    "GlowColor": "Green",
+                    "Duration": 120000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 25,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Darkness": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Darkness_BuffName]", // Darknesss
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:Darkness_BuffDescription]",
+                    "IsDebuff": true,
+                    "GlowColor": "Purple",
+                    "Duration": 5000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 26,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Weakness": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Debuff_Weakness]",
+                    "Description": null,
+                    "IsDebuff": true,
+                    "GlowColor": "0 150 255",
+                    "Duration": 10000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 27,
+                    "Effects": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 0.0,
+                        "Defense": 0.0,
+                        "Attack": -20.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModID}}_Ravioli": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff_Ravioli_Title]", // Immune to debuffs
+                    "Description": "[LocalizedText Strings\\StringsFromCSFiles:Buff_Ravioli_Description]",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 180000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 28,
+                    "Effects": null,
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+            }
+        }
+    ]
+}

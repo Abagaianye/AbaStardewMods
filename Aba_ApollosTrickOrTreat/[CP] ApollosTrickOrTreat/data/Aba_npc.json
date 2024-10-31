@@ -1,0 +1,94 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Aba.Apollo": {
+                    "DisplayName": "Apollo Mongoose",
+                    "CanSocialize": false,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "{{ModID}}_ApolloHouse",
+                            "Tile": {
+                                "X": 6,
+                                "Y": 14
+                            },
+                            "Direction": "right"
+                        }
+                    ],
+                    "TextureName": "Aba.Apollo_blue",
+                    "Appearance": [
+                        {
+                            "Id": "Blue",
+                            "Portrait": "Portraits/Aba.Apollo_blue",
+                            "Sprite": "Characters/Aba.Apollo_blue",
+                            "Precedence": "0",
+                            "Weight": "1"
+                        },
+                        {
+                            "Id": "Purple",
+                            "Portrait": "Portraits/Aba.Apollo_purple",
+                            "Sprite": "Characters/Aba.Apollo_purple",
+                            "Precedence": "0",
+                            "Weight": "1"
+                        },
+                        {
+                            "Id": "Green",
+                            "Portrait": "Portraits/Aba.Apollo_green",
+                            "Sprite": "Characters/Aba.Apollo_green",
+                            "Precedence": "0",
+                            "Weight": "1"
+                        }
+                    ],
+                },
+            },
+        },
+
+        // Schedule
+        {
+            "LogName": "Apollo Mongoose Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Aba.Apollo",
+            "Entries": {
+                "spring": "0630 {{ModID}}_ApolloHouse 14 14 0/0700 {{ModID}}_ApolloHouse 18 21 2/1400 {{ModID}}_ApolloHouse 15 28 0/1600 {{ModID}}_ApolloHouse 19 23 1/1700 {{ModID}}_ApolloHouse 11 22 0/1900 {{ModID}}_ApolloHouse 19 15 1/2300 {{ModID}}_ApolloHouse 6 14 3",
+            }
+        },
+
+        // Dialogue - intro only
+        {
+            "LogName": "Apollo Mongoose Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Aba.Apollo",
+            "Entries": {
+                "Mon": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Tue": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Wed": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Thu": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Fri": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Sat": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+                "Sun": "$action AddMail Current {{ModID}}_welcomeflag now # {{i18n: apollo.welcome|ModID={{ModID}}}}",
+            }
+        },
+
+        // Dialogue - after meeting
+        {
+            "LogName": "Apollo Mongoose Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Aba.Apollo",
+            "When": {
+                "HasFlag": "{{ModID}}_welcomeflag"
+            },
+            "Entries": {
+                "Mon": "{{i18n: apollo.mon|ModID={{ModID}}}}",
+                "Tue": "{{i18n: apollo.tue|ModID={{ModID}}}}",
+                "Wed": "{{i18n: apollo.wed|ModID={{ModID}}}}",
+                "Thu": "{{i18n: apollo.thu|ModID={{ModID}}}}",
+                "Fri": "{{i18n: apollo.fri|ModID={{ModID}}}}",
+                "Sat": "{{i18n: apollo.sat|ModID={{ModID}}}}",
+                "Sun": "{{i18n: apollo.sun|ModID={{ModID}}}}",
+            }
+        },
+    ]
+}

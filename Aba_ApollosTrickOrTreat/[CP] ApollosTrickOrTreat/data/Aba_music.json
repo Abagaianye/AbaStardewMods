@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Custom music edit",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_Music": {
+                    "ID": "{{ModID}}_Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/The_Crypt.ogg}}" ],
+                    "Category": "Music",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+    ]
+}

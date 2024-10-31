@@ -1,0 +1,19 @@
+{
+    "Name": "Apollo's Trick or Treat",
+    "Author": "Abagaianye",
+    "Version": "1.0",
+    "Description": "Will you get a treat or a trick?",
+    "UniqueID": "Abagaianye.TrickTreatCP",
+    "UpdateKeys": ["Nexus:28984"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore"
+        },
+        {
+            "UniqueID": "Spiderbuttons.BETAS"
+        }
+    ]
+}

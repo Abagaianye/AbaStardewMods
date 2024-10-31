@@ -1,0 +1,88 @@
+
+{
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// CONTENT.JSON 
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+
+	// Config
+	"config.BuffDuration.name": "Buff Duration",
+	"config.BuffDuration.description": "Choose how long the Mysterious Candy buff lasts for.",
+	"config.BuffDuration.values.120000": "2 minutes",
+	"config.BuffDuration.values.300000": "5 minutes",
+	"config.BuffDuration.values.420000": "7 minutes",
+	"config.BuffDuration.values.600000": "10 minutes",
+	"config.BuffDuration.values.-2": "All day",
+
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// ABA_OBJECTS.JSON
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	
+    "object.candy.name": "Mysterious Candy",
+    "object.candy.description": "You can't figure out its flavour. Grape? Blackberry? Lavender? Ube? ...Eggplant?",
+
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// ABA_TRIGGERACTIONS.JSON
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+
+    "buff.applied": "Trick or treat!",
+
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// ABA_NPC.JSON
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+
+    "apollo.welcome": "Welcome, welcome! This is Apollo Mongoose *he gestures to himself* and this is his little shop *gestures around the room*.#$e# The little shop isn't open right now, but Apollo thinks you deserve a little treat for finding it.[{{ModId}}_Candy]",
+    "apollo.mon": "Mr. Mongoose thinks you need a little pick-me-up, eh?[{{ModId}}_Candy]",
+    "apollo.tue": "How about a little treat for Apollo's favourite farmer?[{{ModId}}_Candy]",
+    "apollo.wed": "Here, take this! And don't tell anyone else about Apollo Mongoose...[{{ModId}}_Candy]",
+    "apollo.thu": "Hello, hello, little farmer child! Feeling peckish?[{{ModId}}_Candy]",
+    "apollo.fri": "Stop that, Algernon! Oh, hello farmer! No, don't mind silly old Mr. Mongoose - sometimes toads are naughty and need scolding. #$b# He used to be a mouse, you know, so sometimes he gets above himself. Here, have this.[{{ModId}}_Candy]",
+    "apollo.sat": "The weekend! Time off for you? Oh, no...how sad. Oh well, take this to help you make it through.[{{ModId}}_Candy]",
+    "apollo.sun": "%Apollo is singing to all the animals in his shop. They are singing back and the noise is indescribable. Apollo waves you over and presses something into your hand.[{{ModId}}_Candy]",
+
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// ABA_MAPS.JSON
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+
+    // Location display name
+    "mapname.apollohouse": "Apollo Mongoose's House",
+
+    // Map strings
+    "map.algernon": "There is a little plaque in front of the toad with 'Algernon' written on it.",
+    "map.sign": "The sign says 'This sign is for sale!' on both sides. That doesn't seem very useful.",
+    "map.crab": "You reach out to the crab and touch it gently. It pinches you. Ow! What were you expecting?",
+    "map.bee": "The bee eyes you suspiciously. It appears to be wondering why you're in Apollo's private bathroom.",
+    "map.book1": "Why Men Can't Be Witches. By 'I. M. Smallminded'",
+    "map.book2": "Toad Whispering for Fun and Profit",
+    "map.keyboard": "The keyboard appears to be heavily used and well-loved.",
+
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+	// ABA_MAIL.JSON
+	//////////////////////////////////////
+	//////////////////////////////////////
+	//////////////////////////////////////
+
+    "mail.graveyard": "You may find something of interest if you visit the graveyard.^^P.S. Tell no one of this.^^P.P.S. Burn this note.[#]A spooky note"
+
+}
