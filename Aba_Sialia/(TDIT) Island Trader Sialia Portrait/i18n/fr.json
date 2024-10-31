@@ -1,0 +1,19 @@
+{
+	"config.Ethnicity.name": "Ethnie",
+	"config.Ethnicity.description": "Choix de l'ethnie de Siala (visuels sur la page Nexus du mod)",
+	"config.Ethnicity.values.Malaysian": "Malaisienne",
+	"config.Ethnicity.values.Melanesian": "Mélanésienne",
+	"config.Hair.name": "Couleur des cheveux",
+	"config.Hair.description": "Choix de la couleur des cheveux de Siala.",
+	"config.Hair.values.Blue": "Bleu",
+	"config.Hair.values.Brown": "Brun",
+	"config.Sprite.name": "Nouveau sprite",
+	"config.Sprite.description": "Change le sprite de Siala avec celui correspondant à son ethnie. Basé sur le sprite réalisé par Emyn dans son mod Emyn's Diverse Ginger Island. Désactivez cette option si vous voulez utiliser un autre sprite.",
+	"config.ChangeDialogue.name": "Expression correcte",
+	"config.ChangeDialogue.description": "Change les répliques de Siala pour qu'elle parle normalement et non en mode « toi échanger avec moi ».",
+	"Sialia.IslandTrader4_male": "Troque avec moi, mon frère !",
+	"Sialia.IslandTrader4_female": "Troque avec moi, ma sœur !",
+	"Sialia.IslandTrader3": "Bonjour ! Un petit échange ?",
+	"Sialia.IslandTrader2": "On ne fait que du troc ici !",
+	"Sialia.IslandTrader1": "Tu vois quelque chose qui te plaît ?"
+  }

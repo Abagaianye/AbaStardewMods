@@ -1,0 +1,19 @@
+{
+  "config.Ethnicity.name": "Étnica",
+  "config.Ethnicity.description": "Elija si Sialia es melanesio o malayo",
+  "config.Ethnicity.values.Malaysian": "Malayo",
+  "config.Ethnicity.values.Melanesian": "Melanesio",
+  "config.Hair.name": "Color de cabello",
+  "config.Hair.description": "Elija si Sialia tiene cabello azul o castaño.",
+  "config.Hair.values.Blue": "Azul",
+  "config.Hair.values.Brown": "Castaño",
+  "config.Sprite.name": "Sustitución de sprite",
+  "config.Sprite.description": "Sustituye el sprite del comerciante por uno de este mod. Si se elige cabello azul, se utiliza una versión del sprite original de cabello azul de Emyn que se ha ajustado para corregir el parpadeo del original. Si se elige cabello castaño, el sprite del comerciante es una versión de cabello castaño del sprite reparado de Emyn. Desmarca esta opción si quieras usar el sprite original de Emyn, el sprite del pájaro vainilla o el sprite de algún otro mod.",
+  "config.ChangeDialogue.name": "Cambiar el diálogo",
+  "config.ChangeDialogue.description": "Cambiar el diálogo del pidgin de pájaro utilizado en vainilla.",
+  "Sialia.IslandTrader4_male": "Por favor, trueque conmigo, mano...",
+  "Sialia.IslandTrader4_female": "Por favor, trueque conmigo, mana...",
+  "Sialia.IslandTrader3": "¡Oye! ¿Quieres intercambiar?",
+  "Sialia.IslandTrader2": "¡Sólo intercambio de artículos, por favor!",
+  "Sialia.IslandTrader1": "¿Ve algo que le guste?"
+}

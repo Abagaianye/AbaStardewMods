@@ -1,0 +1,157 @@
+/* CREDITS: 
+sialia.png from Emyn's Diverse Ginger Island
+- Sialia's blue-haired sprite is a copy of the original sprite that comes with Emyn's Diverse Ginger Island which has had its canvas size edited to prevent the vanilla bird sprite from peeking through the way that it does in Emyn's version. No changes have been made to the sprite itself.
+- Sialia's brown-haired sprite is a copy of the blue-haired sprite that has been edited to change the hair colour to brown and had its canvas size edited to prevent the vanilla bird sprite from peeking through the way that it does in Emyn's version.
+*/
+{
+	"Format": "2.3.0",
+    "ConfigSchema":
+		{
+			"Ethnicity":
+				{
+					"AllowValues": "Malaysian, Melanesian",
+					"Default": "Melanesian"
+				},
+			"Hair":
+				{
+					"AllowValues": "Blue, Brown",
+					"Default": "Blue"
+				},
+			"Sprite":
+				{
+					"AllowValues": "true, false",
+					"Default": true
+				},
+			"ChangeDialogue":
+				{
+					"AllowValues": "true, false",
+					"Default": true
+				}	
+		},
+	"Changes": [
+
+		// PORTRAITS
+		//////////////////////////////////////
+
+		/* Blue hair (default) */
+		{
+			"LogName": "Replace Island Trader portrait with Melanesian Sialia - blue hair",
+            "Action": "EditImage",
+            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+			"When": {
+				"Ethnicity": "Melanesian",
+				"Hair": "Blue"
+			},
+			"FromFile": "assets/Sialia_Melanesian.png"
+        },
+        {
+			"LogName": "Replace Island Trader portrait with Malaysian Sialia - blue hair",
+            "Action": "EditImage",
+            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+			"When": {
+				"Ethnicity": "Malaysian",
+				"Hair": "Blue"
+			},
+			"FromFile": "assets/Sialia_Malaysian.png"
+        },
+
+		/* Brown hair */
+		{
+			"LogName": "Replace Island Trader portrait with Melanesian Sialia - brown hair",
+            "Action": "EditImage",
+            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+			"FromFile": "assets/Sialia_Melanesian_Brown.png",
+			"When": {
+				"Ethnicity": "Melanesian",
+				"Hair": "Brown"
+			}
+        },
+        {
+			"LogName": "Replace Island Trader portrait with Malaysian Sialia - brown hair",
+            "Action": "EditImage",
+            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+			"FromFile": "assets/Sialia_Malaysian_Brown.png",
+			"When": {
+				"Ethnicity": "Malaysian",
+				"Hair": "Brown"
+			}
+        },
+
+		// SPRITE 
+		//////////////////////////////////////
+
+		/* Blue hair (default) */
+        {
+			"LogName": "Replace Island Trader sprite with brown hair version - left",
+			"Action": "EditImage",
+			"Target": "Maps/island_tilesheet_1",
+			"PatchMode": "Replace",
+			"FromFile": "assets/Sialia_Sprite_Blue_1.png",
+			"ToArea": { "X": 256, "Y": 992, "Width": 96, "Height": 48 },
+			"Priority": "Late",
+			"When": {
+				"Hair": "Blue",
+				"Sprite": "true"
+			}
+		},
+        {
+			"LogName": "Replace Island Trader sprite with brown hair version - right",
+			"Action": "EditImage",
+			"Target": "Maps/island_tilesheet_1",
+			"PatchMode": "Replace",
+			"FromFile": "assets/Sialia_Sprite_Blue_2.png",
+			"ToArea": { "X": 352, "Y": 1024, "Width": 48, "Height": 16 },
+			"Priority": "Late",
+			"When": {
+				"Hair": "Blue",
+				"Sprite": "true"
+			}
+		},
+
+		/* Brown hair */
+        {
+			"LogName": "Replace Island Trader sprite with brown hair version - left",
+			"Action": "EditImage",
+			"Target": "Maps/island_tilesheet_1",
+			"PatchMode": "Replace",
+			"FromFile": "assets/Sialia_Sprite_Brown_1.png",
+			"ToArea": { "X": 256, "Y": 992, "Width": 96, "Height": 48 },
+			"Priority": "Late",
+			"When": {
+				"Hair": "Brown",
+				"Sprite": "true"
+			}
+		},
+        {
+			"LogName": "Replace Island Trader sprite with brown hair version - right",
+			"Action": "EditImage",
+			"Target": "Maps/island_tilesheet_1",
+			"PatchMode": "Replace",
+			"FromFile": "assets/Sialia_Sprite_Brown_2.png",
+			"ToArea": { "X": 352, "Y": 1024, "Width": 48, "Height": 16 },
+			"Priority": "Late",
+			"When": {
+				"Hair": "Brown",
+				"Sprite": "true"
+			}
+		},
+
+		// DIALOGUE
+		//////////////////////////////////////
+        {
+			"LogName": "Replace Island Trader dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+			"When": {
+				"ChangeDialogue": "true"
+			},
+			"Entries": {
+                "IslandTrader4_male": "{{i18n: Sialia.IslandTrader4_male}}",
+                "IslandTrader4_female": "{{i18n: Sialia.IslandTrader4_female}}",
+                "IslandTrader3": "{{i18n: Sialia.IslandTrader3}}",
+                "IslandTrader2": "{{i18n: Sialia.IslandTrader2}}",
+                "IslandTrader1": "{{i18n: Sialia.IslandTrader1}}"
+            }
+        }
+	]
+}

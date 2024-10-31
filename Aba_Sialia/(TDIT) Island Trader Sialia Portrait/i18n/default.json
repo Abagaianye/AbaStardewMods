@@ -1,0 +1,22 @@
+{
+	// CONFIG
+	"config.Ethnicity.name": "Ethnicity",
+	"config.Ethnicity.description": "Choose whether Sialia is Melanesian or Malaysian",
+	"config.Ethnicity.values.Malaysian": "Malaysian",
+	"config.Ethnicity.values.Melanesian": "Melanesian",
+	"config.Hair.name": "Hair Colour",
+	"config.Hair.description": "Choose whether Sialia has brown or blue hair.",
+	"config.Hair.values.Blue": "Blue",
+	"config.Hair.values.Brown": "Brown",
+	"config.Sprite.name": "Sprite Replacement",
+	"config.Sprite.description": "Replaces the trader sprite with one from this mod. If blue hair is chosen, uses a version of Emyn's original blue-haired sprite that has been adjusted to fix the flickering of the original. If brown hair is chosen, the trader sprite is a brown-haired version of the fixed Emyn sprite. Uncheck if you want to use Emyn's original sprite, the vanilla bird sprite, or some other mod's sprite.",	
+	"config.ChangeDialogue.name": "Change Dialogue",
+	"config.ChangeDialogue.description": "Change the dialogue away from the bird pidgin used in vanilla.",
+
+	// VENDOR DIALOGUE
+	"Sialia.IslandTrader4_male": "Please trade with me, brother...",
+	"Sialia.IslandTrader4_female": "Please trade with me, sister...",
+    "Sialia.IslandTrader3": "Hey! Want to trade?",
+    "Sialia.IslandTrader2": "Item trade only, please!",
+    "Sialia.IslandTrader1": "See anything you like?"
+}
