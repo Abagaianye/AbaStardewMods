@@ -1,4 +1,4 @@
  ©2024 Abagaianye
  All Rights Reserved. I do not permit my creative writing or art assets to be used for any purpose without my permission. Please contact me (Nexus: https://next.nexusmods.com/profile/Abagaianye, Discord: abagaianye) if you would like to use them - I am happy to discuss your ideas! Please note that I will not provide permission for the use of my assets with AI for any reason.
  
- Please note that this license applies only to the art and writing assets created by me for this mod. Assets created by others have their permissions specified in the Credits.txt file in the folder above this one. The C# code for this mod is licensed separately - please see the License.txt file inside the ApollosTrickOrTreat folder.
+ Please note that this license applies only to the art and writing assets created by me for this mod. Assets created by others have their permissions specified in the CREDITS.txt file. The C# code for this mod is licensed separately - please see the LICENSE file on the repo (https://github.com/Abagaianye/AbaStardewMods).

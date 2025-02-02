@@ -4,11 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<GameModsPath>E:\Games\Steam\steamapps\common\Stardew Valley\Mods\Aba_mods\ApollosTrickOrTreat</GameModsPath>
+	<GameModsPath>E:\Games\Steam\steamapps\common\Stardew Valley\mod_dev\AbaStardewMods\built</GameModsPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.0" />
   </ItemGroup>
-
+	
+  <ItemGroup>
+    <ContentPacks Include="[CP] ApollosTrickOrTreat" Version="$(Version)" />
+  </ItemGroup>
 </Project>

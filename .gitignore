@@ -1,2 +1,21 @@
+# user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln
 
+# build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+_releases/
+built/
+
+# Visual Studio cache/options
+.vs/
+
+# zip-related
 *.zip
+zips_in_private_repo.md
