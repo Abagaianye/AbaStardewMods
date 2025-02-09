@@ -593,37 +593,37 @@
   </object>
   <object id="15" name="TileData" x="320" y="352" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Algernon"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Algernon"/>
    </properties>
   </object>
   <object id="16" name="TileData" x="272" y="432" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Crab"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Crab"/>
    </properties>
   </object>
   <object id="17" name="TileData" x="16" y="368" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Sign "/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Sign "/>
    </properties>
   </object>
   <object id="18" name="TileData" x="144" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Bee"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Bee"/>
    </properties>
   </object>
   <object id="19" name="TileData" x="160" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Book1"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Book1"/>
    </properties>
   </object>
   <object id="20" name="TileData" x="96" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Book2"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Book2"/>
    </properties>
   </object>
   <object id="21" name="TileData" x="240" y="432" width="16" height="16">
    <properties>
-    <property name="Action" value="Message Abagaianye.tricktreatCP_Keyboard"/>
+    <property name="Action" value="Message Abagaianye.TrickTreatCP_Keyboard"/>
    </properties>
   </object>
  </objectgroup>

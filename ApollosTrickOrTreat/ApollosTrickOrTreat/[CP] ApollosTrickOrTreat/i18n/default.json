@@ -17,6 +17,9 @@
 	"config.BuffDuration.values.600000": "10 minutes",
 	"config.BuffDuration.values.-2": "All day",
 
+	"config.VisibleWarp.name": "Visible Warp Tile",
+	"config.VisibleWarp.description": "Whether the warp to Apollo's shop is visible in the graveyard or not. Default true.",
+
 	//////////////////////////////////////
 	//////////////////////////////////////
 	//////////////////////////////////////
@@ -83,6 +86,6 @@
 	//////////////////////////////////////
 	//////////////////////////////////////
 
-    "mail.graveyard": "You may find something of interest if you visit the graveyard.^^P.S. Tell no one of this.^^P.P.S. Burn this note.[#]A spooky note"
+    "mail.graveyard": "You may find something of interest if you visit the graveyard.^^P.S. Tell no one of this.^^P.P.S. Burn this note.[#]A Spooky Note"
 
 }

@@ -4,11 +4,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<GameModsPath>E:\Games\Steam\steamapps\common\Stardew Valley\mod_dev\AbaStardewMods\built</GameModsPath>
+	<GameModsPath>E:\Games\Steam\steamapps\common\Stardew Valley\ModDev\AbaStardewMods\built</GameModsPath>
+    <ModZipPath>E:\Games\Steam\steamapps\common\Stardew Valley\ModDev\AbaStardewModsPrivate\ReleasedZips\AbaApollo</ModZipPath>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.0" />
+    <None Remove="LICENSE.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
   </ItemGroup>
 	
   <ItemGroup>

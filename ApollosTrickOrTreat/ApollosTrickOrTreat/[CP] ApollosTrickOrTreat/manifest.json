@@ -1,7 +1,7 @@
 {
     "Name": "Apollo's Trick or Treat",
     "Author": "Abagaianye",
-    "Version": "1.0",
+    "Version": "1.0.1",
     "Description": "Will you get a treat or a trick?",
     "UniqueID": "Abagaianye.TrickTreatCP",
     "UpdateKeys": ["Nexus:28984"],
@@ -14,6 +14,9 @@
         },
         {
             "UniqueID": "Spiderbuttons.BETAS"
+        },
+        {
+            "UniqueID": "Abagaianye.TrickTreat"
         }
     ]
 }

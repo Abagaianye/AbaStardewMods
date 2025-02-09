@@ -38,7 +38,7 @@ namespace ApollosTrickOrTreat
         private void OnWarped(object? sender, WarpedEventArgs e)
         {
             // If the local player warps to a new location that is ApolloHouse, set doCauldronSmoke bool to true
-            if (e.IsLocalPlayer && e.NewLocation == Game1.getLocationFromName("Abagaianye.tricktreatCP_ApolloHouse"))
+            if (e.IsLocalPlayer && e.NewLocation == Game1.getLocationFromName("Abagaianye.TrickTreatCP_ApolloHouse"))
             {
                 doCauldronSmoke = true;
             }

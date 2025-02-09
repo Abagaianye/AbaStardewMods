@@ -4,7 +4,7 @@
 			"LogName": "Tricks or Treats textures",
 			"Action": "Load",
 			"Target": "Mods/{{ModID}}/Candy",
-			"FromFile": "assets/Aba_candy.png"
+			"FromFile": "assets/aba_candy.png"
 		},
 		{
 			"LogName": "Add a food",
