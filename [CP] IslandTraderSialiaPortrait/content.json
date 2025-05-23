@@ -37,7 +37,7 @@ sialia.png from Emyn's Diverse Ginger Island
 		{
 			"LogName": "Replace Island Trader portrait with Melanesian Sialia - blue hair",
             "Action": "EditImage",
-            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+            "Target": "Portraits/IslandTrader_Default, Portraits/IslandTrader_Red, Portraits/IslandTrader_Green",
 			"When": {
 				"Ethnicity": "Melanesian",
 				"Hair": "Blue"
@@ -47,7 +47,7 @@ sialia.png from Emyn's Diverse Ginger Island
         {
 			"LogName": "Replace Island Trader portrait with Malaysian Sialia - blue hair",
             "Action": "EditImage",
-            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+            "Target": "Portraits/IslandTrader_Default, Portraits/IslandTrader_Red, Portraits/IslandTrader_Green",
 			"When": {
 				"Ethnicity": "Malaysian",
 				"Hair": "Blue"
@@ -59,7 +59,7 @@ sialia.png from Emyn's Diverse Ginger Island
 		{
 			"LogName": "Replace Island Trader portrait with Melanesian Sialia - brown hair",
             "Action": "EditImage",
-            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+            "Target": "Portraits/IslandTrader_Default, Portraits/IslandTrader_Red, Portraits/IslandTrader_Green",
 			"FromFile": "assets/Sialia_Melanesian_Brown.png",
 			"When": {
 				"Ethnicity": "Melanesian",
@@ -69,7 +69,7 @@ sialia.png from Emyn's Diverse Ginger Island
         {
 			"LogName": "Replace Island Trader portrait with Malaysian Sialia - brown hair",
             "Action": "EditImage",
-            "Target": "Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green",
+            "Target": "Portraits/IslandTrader_Default, Portraits/IslandTrader_Red, Portraits/IslandTrader_Green",
 			"FromFile": "assets/Sialia_Malaysian_Brown.png",
 			"When": {
 				"Ethnicity": "Malaysian",
