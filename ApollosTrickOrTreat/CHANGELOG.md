@@ -1,5 +1,3 @@
-Changelog add to Apollo mod folder somewhere
-
 1.0.1
 
 - fixed map strings

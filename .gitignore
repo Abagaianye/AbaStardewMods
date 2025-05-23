@@ -19,3 +19,7 @@ built/
 # zip-related
 *.zip
 zips_in_private_repo.md
+
+# any config files
+config.json
+desktop.ini

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GamePath>D:\Games\Steam\steamapps\common\Stardew Valley - 1.6.15</GamePath> <!-- Need this to ensure the game file is found when folder is not just called "Stardew Valley"-->
+    <GameModsPath>D:\Games\Steam\steamapps\common\Stardew Valley - 1.6.15\Mods-Dev\AbaMods</GameModsPath>
+    <ModZipPath>D:\Games\Steam\steamapps\common\Stardew Valley - 1.6.15\ModDev\AbaStardewModsPrivate\ReleasedZips\AbaApollo</ModZipPath>
+    <StartArguments>--mods-path "D:\Games\Steam\steamapps\common\Stardew Valley - 1.6.15\Mods-Dev"</StartArguments> <!-- Used to run SMAPI with a different mods folder than just "Mods" - to allow me to use Stardrop since I can't specify a custom Mods folder for it-->
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LICENSE.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ContentPacks Include="[CP] ApollosTrickOrTreat" Version="$(Version)" />
+  </ItemGroup>
+</Project>
